@@ -1,0 +1,7 @@
+<html t:type="layout" title="MetHotels Forma Index"
+ t:sidebarTitle="Framework Version"
+ xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+ xmlns:p="tapestry:parameter">
+ <t:beaneditform object="soba" exclude="sobaId" />
+ <t:grid source="sobe" exclude="id"/>
+</html>
